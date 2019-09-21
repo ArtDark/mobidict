@@ -28,7 +28,7 @@ def select_operator():
 def create_dict():
     file = open('mobidict.txt', 'w')
     for i in operator:
-        for j in range(9999999):
+        for j in range(10000000):
             file.write('{}{}'.format(i, str(j).zfill(7) + '\n'))
     file.close()
             
